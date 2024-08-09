@@ -24,7 +24,7 @@ struct IntroScreen: View {
                 PointView(sympol: "chart.bar.fill", title: "Визуальные Диаграммы", subTitle: "Просматривайте свои транзакции с помощью привлекательного графического представления")
                 PointView(sympol: "magnifyingglass", title: "Предварительный Фильтр", subTitle: "Находите н ужные вам расходы с помощью предварительного поиска и фильтрации")
             }
-            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
+            .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.horizontal, 25)
             
             Spacer(minLength: 10)
