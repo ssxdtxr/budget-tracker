@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+@main 
 struct budget_trackerApp: App {
     var body: some Scene {
         WindowGroup {

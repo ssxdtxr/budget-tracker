@@ -14,6 +14,9 @@
 		DC29FBD12C63E89100917125 /* budget_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBD02C63E89100917125 /* budget_trackerTests.swift */; };
 		DC29FBDB2C63E89100917125 /* budget_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBDA2C63E89100917125 /* budget_trackerUITests.swift */; };
 		DC29FBDD2C63E89100917125 /* budget_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBDC2C63E89100917125 /* budget_trackerUITestsLaunchTests.swift */; };
+		DC29FBEE2C66057A00917125 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBED2C66057A00917125 /* IntroScreen.swift */; };
+		DC29FBF12C66065100917125 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBF02C66065100917125 /* Constants.swift */; };
+		DC29FBF32C660DED00917125 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBF22C660DED00917125 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		DC29FBD62C63E89100917125 /* budget-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "budget-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC29FBDA2C63E89100917125 /* budget_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budget_trackerUITests.swift; sourceTree = "<group>"; };
 		DC29FBDC2C63E89100917125 /* budget_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budget_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC29FBED2C66057A00917125 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		DC29FBF02C66065100917125 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DC29FBF22C660DED00917125 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		DC29FBBE2C63E88F00917125 /* budget-tracker */ = {
 			isa = PBXGroup;
 			children = (
+				DC29FBEF2C66062F00917125 /* Helpers */,
+				DC29FBEC2C66055C00917125 /* Model */,
+				DC29FBE92C63EBA800917125 /* View */,
 				DC29FBBF2C63E88F00917125 /* budget_trackerApp.swift */,
 				DC29FBC12C63E88F00917125 /* ContentView.swift */,
 				DC29FBC32C63E89000917125 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				DC29FBDC2C63E89100917125 /* budget_trackerUITestsLaunchTests.swift */,
 			);
 			path = "budget-trackerUITests";
+			sourceTree = "<group>";
+		};
+		DC29FBE92C63EBA800917125 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FBED2C66057A00917125 /* IntroScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC29FBEC2C66055C00917125 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FBF22C660DED00917125 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC29FBEF2C66062F00917125 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FBF02C66065100917125 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC29FBC22C63E88F00917125 /* ContentView.swift in Sources */,
+				DC29FBEE2C66057A00917125 /* IntroScreen.swift in Sources */,
+				DC29FBF32C660DED00917125 /* Tab.swift in Sources */,
 				DC29FBC02C63E88F00917125 /* budget_trackerApp.swift in Sources */,
+				DC29FBF12C66065100917125 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
