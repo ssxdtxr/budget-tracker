@@ -31,3 +31,10 @@ struct Transaction: Identifiable {
     }
 }
 
+var sampleTransactions: [Transaction] = [
+    .init(title: "Products", remarks: "dadada", amount: 312312, dateAdded: .now, category: .income, tintColor: tints.randomElement()!),
+    .init(title: "Computer", remarks: "dadada", amount: 312312, dateAdded: .now, category: .expense, tintColor: tints.randomElement()!),
+    .init(title: "Books", remarks: "dadada", amount: 312312, dateAdded: .now, category: .income, tintColor: tints.randomElement()!),
+    .init(title: "Credit", remarks: "dadada", amount: 312312, dateAdded: .now, category: .expense, tintColor: tints.randomElement()!),
+]
+
