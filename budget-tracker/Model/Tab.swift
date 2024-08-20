@@ -15,7 +15,6 @@ enum Tab: String {
     
     @ViewBuilder
     var tabContent: some View {
-//        rowValue ??
         switch self {
         case .recents:
             Image(systemName: "calendar")

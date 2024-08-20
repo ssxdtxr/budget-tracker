@@ -17,6 +17,19 @@
 		DC29FBEE2C66057A00917125 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBED2C66057A00917125 /* IntroScreen.swift */; };
 		DC29FBF12C66065100917125 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBF02C66065100917125 /* Constants.swift */; };
 		DC29FBF32C660DED00917125 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBF22C660DED00917125 /* Tab.swift */; };
+		DC29FBF52C6642E300917125 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBF42C6642E300917125 /* Category.swift */; };
+		DC29FBF72C66432000917125 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBF62C66432000917125 /* Transaction.swift */; };
+		DC29FBF92C6645B200917125 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBF82C6645B200917125 /* TintColor.swift */; };
+		DC29FBFD2C66472000917125 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBFC2C66472000917125 /* Recents.swift */; };
+		DC29FBFF2C66473B00917125 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FBFE2C66473B00917125 /* Search.swift */; };
+		DC29FC032C66475400917125 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC022C66475400917125 /* Settings.swift */; };
+		DC29FC052C6647B000917125 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC042C6647B000917125 /* Graphs.swift */; };
+		DC29FC072C664BE500917125 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC062C664BE500917125 /* View+Extensions.swift */; };
+		DC29FC092C66C39A00917125 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC082C66C39A00917125 /* Date+Extensions.swift */; };
+		DC29FC0C2C66CAE900917125 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC0B2C66CAE900917125 /* CardView.swift */; };
+		DC29FC0F2C66D84400917125 /* RecentsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC0E2C66D84400917125 /* RecentsHeader.swift */; };
+		DC29FC112C66EC8900917125 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC102C66EC8900917125 /* TransactionCardView.swift */; };
+		DC29FC132C66F14000917125 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29FC122C66F14000917125 /* DateFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +63,19 @@
 		DC29FBED2C66057A00917125 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
 		DC29FBF02C66065100917125 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DC29FBF22C660DED00917125 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		DC29FBF42C6642E300917125 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DC29FBF62C66432000917125 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		DC29FBF82C6645B200917125 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		DC29FBFC2C66472000917125 /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		DC29FBFE2C66473B00917125 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		DC29FC022C66475400917125 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DC29FC042C6647B000917125 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		DC29FC062C664BE500917125 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DC29FC082C66C39A00917125 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		DC29FC0B2C66CAE900917125 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DC29FC0E2C66D84400917125 /* RecentsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsHeader.swift; sourceTree = "<group>"; };
+		DC29FC102C66EC8900917125 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		DC29FC122C66F14000917125 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +165,8 @@
 		DC29FBE92C63EBA800917125 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DC29FC0A2C66CAD700917125 /* Helpers */,
+				DC29FBFB2C66471200917125 /* TabViews */,
 				DC29FBED2C66057A00917125 /* IntroScreen.swift */,
 			);
 			path = View;
@@ -148,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				DC29FBF22C660DED00917125 /* Tab.swift */,
+				DC29FBF42C6642E300917125 /* Category.swift */,
+				DC29FBF62C66432000917125 /* Transaction.swift */,
+				DC29FBF82C6645B200917125 /* TintColor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,8 +187,40 @@
 			isa = PBXGroup;
 			children = (
 				DC29FBF02C66065100917125 /* Constants.swift */,
+				DC29FC062C664BE500917125 /* View+Extensions.swift */,
+				DC29FC082C66C39A00917125 /* Date+Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DC29FBFB2C66471200917125 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FC0D2C66D7DB00917125 /* Recents */,
+				DC29FBFE2C66473B00917125 /* Search.swift */,
+				DC29FC022C66475400917125 /* Settings.swift */,
+				DC29FC042C6647B000917125 /* Graphs.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		DC29FC0A2C66CAD700917125 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FC0B2C66CAE900917125 /* CardView.swift */,
+				DC29FC102C66EC8900917125 /* TransactionCardView.swift */,
+				DC29FC122C66F14000917125 /* DateFilterView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DC29FC0D2C66D7DB00917125 /* Recents */ = {
+			isa = PBXGroup;
+			children = (
+				DC29FBFC2C66472000917125 /* Recents.swift */,
+				DC29FC0E2C66D84400917125 /* RecentsHeader.swift */,
+			);
+			path = Recents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,11 +353,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC29FC052C6647B000917125 /* Graphs.swift in Sources */,
+				DC29FBF92C6645B200917125 /* TintColor.swift in Sources */,
+				DC29FC132C66F14000917125 /* DateFilterView.swift in Sources */,
+				DC29FBFD2C66472000917125 /* Recents.swift in Sources */,
+				DC29FBF72C66432000917125 /* Transaction.swift in Sources */,
+				DC29FC0C2C66CAE900917125 /* CardView.swift in Sources */,
 				DC29FBC22C63E88F00917125 /* ContentView.swift in Sources */,
+				DC29FC112C66EC8900917125 /* TransactionCardView.swift in Sources */,
 				DC29FBEE2C66057A00917125 /* IntroScreen.swift in Sources */,
 				DC29FBF32C660DED00917125 /* Tab.swift in Sources */,
+				DC29FC032C66475400917125 /* Settings.swift in Sources */,
 				DC29FBC02C63E88F00917125 /* budget_trackerApp.swift in Sources */,
+				DC29FC092C66C39A00917125 /* Date+Extensions.swift in Sources */,
+				DC29FC0F2C66D84400917125 /* RecentsHeader.swift in Sources */,
+				DC29FC072C664BE500917125 /* View+Extensions.swift in Sources */,
+				DC29FBFF2C66473B00917125 /* Search.swift in Sources */,
 				DC29FBF12C66065100917125 /* Constants.swift in Sources */,
+				DC29FBF52C6642E300917125 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

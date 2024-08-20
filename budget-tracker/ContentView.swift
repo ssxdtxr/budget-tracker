@@ -13,24 +13,24 @@ struct ContentView: View {
     @State private var activeTab: Tab = .recents
     var body: some View {
         TabView(selection: $activeTab) {
-            Text("Недавние")
+            Recents()
                 .tag(Tab.recents)
                 .tabItem { Tab.recents.tabContent }
-            Text("Поиск")
+            Search()
                 .tag(Tab.search)
                 .tabItem { Tab.search.tabContent }
-            Text("Графики")
+            Graphs()
                 .tag(Tab.charts)
                 .tabItem { Tab.charts.tabContent }
-            Text("Настройки")
+            Settings()
                 .tag(Tab.settings)
                 .tabItem { Tab.settings.tabContent }
         }
         .tint(appTint)
-        .sheet(isPresented: $isFirstTime, content: {
+        .sheet(isPresented: $isFirstTime) {
             IntroScreen()
-                .interactiveDismissDisabled()
-        })
+                .interactiveDismissDisabled() ///Отключение закрытия окна свайпом
+        }
     }
 }
 
